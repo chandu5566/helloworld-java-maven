@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.chandu5566.mavensample</groupId>
+  <groupId>com.scmgalaxy.mavensample</groupId>
   <artifactId>yoodle</artifactId>
   <packaging>jar</packaging>
   <version>5.0.0-${BUILD_NUMBER}</version>
@@ -40,13 +40,13 @@
   
 <distributionManagement>
     <repository>
-        <id>sym</id>
-        <name>release softx</name>
+        <id>deployment</id>
+        <name>Internal Releases1</name>
         <url>http://13.127.174.84:8081/nexus/content/repositories/mph/</url>
     </repository>
     <snapshotRepository>
         <id>sym</id>
-        <name>snapshot softx</name>
+        <name>Internal Releases</name>
         <url>http://13.127.174.84:8081/nexus/content/repositories/mph_snapshot/</url>
     </snapshotRepository>
 </distributionManagement>

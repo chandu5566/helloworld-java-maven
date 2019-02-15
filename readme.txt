@@ -50,4 +50,4 @@ For any questions - Please email me at DevOps@RajeshKumar.xyz
     </mirror>
     
     
-#to test whether jira is integrated with git or not
+#to test whether jira is integrated with git or not. Need to mention commit as issue name created in jira.
